@@ -1,4 +1,4 @@
-import { Flame, Wheat, Leaf, Sun } from 'lucide-react';
+import { Flame, Wheat, Leaf, Sun, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -22,6 +22,17 @@ export default function Footer() {
             <p className="text-white/70 font-light text-sm leading-relaxed mt-6 max-w-sm">
               Auténtica cocina italiana en el corazón de Oviedo desde 1995. Un viaje de sabores a través de las recetas tradicionales de la nonna.
             </p>
+            <div className="flex items-center gap-4 pt-4">
+              <a 
+                href="https://www.facebook.com/profile.php?id=100054598563805" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/70 hover:bg-primary hover:text-white hover:border-primary transition-all duration-300"
+                aria-label="Síguenos en Facebook"
+              >
+                <Facebook className="w-5 h-5" />
+              </a>
+            </div>
           </div>
 
           <div className="space-y-6">
